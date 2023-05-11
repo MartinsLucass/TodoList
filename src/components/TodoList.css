@@ -1,0 +1,14 @@
+main{
+    max-width: 50rem;
+    width: 100%;
+    padding: 0rem 1rem;
+}
+
+main h2{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--color-2);
+    text-align: left;
+    margin-bottom: 1rem;
+      
+}
