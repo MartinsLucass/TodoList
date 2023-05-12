@@ -1,9 +1,7 @@
 import React, { useState, createContext } from "react";
 
-// Create a context for the todos
 export const TodoContext = createContext();
 
-// Define a TodoProvider component that wraps its children with the TodoContext provider
 const TodoProvider = ({ children }) => {
   // Set the initial state of the todos to an empty array
   const [todos, setTodos] = useState([]);
@@ -21,7 +19,7 @@ const TodoProvider = ({ children }) => {
   // Define a function to delete a todo from the state based on its ID
   const deleteTodo = (id) => {
     let filtered = todos.filter((todo) => todo.id !== id) // Create a new array of todos that doesn't include the one with the specified ID
-    setTodos(filtered) // Update the state with the new array of todos
+    setTodos(filtered);
   };
   
   // Define a function to toggle the "done" status of a todo based on its ID

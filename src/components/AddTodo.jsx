@@ -18,7 +18,6 @@ export default function AddTodo() {
       return;
     }
 
-    // save the todo 
     saveTodo(todo);
 
     // reset the todo and input value

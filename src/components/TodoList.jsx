@@ -29,8 +29,8 @@ export default function TodoList() {
       {completedTodos.length > 0 && (
         <>
           <h2>
-            {/* Display the number of completed todos and the total number of todos */}
-            Completed ({completedTodos.length} / {context.todos.length})
+            {/* Display the completed todos*/}
+            Completed
           </h2>
           {completedTodosData}
         </>
