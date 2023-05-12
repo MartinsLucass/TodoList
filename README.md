@@ -5,7 +5,7 @@
 ## 📖 About
 This project is a simple **Todo List** application built with React. It allows users to manage their tasks and keep track of their to-do items. This project was created as a learning exercise to explore and practice React concepts, specifically React Hooks.
 
-![Todo List](./src/assets/Gif-Todo.gif)
+![Gif-Todo.gif](https://github.com/MartinsLucass/TodoList/blob/main/src/assets/GIF-Todo.gif)
 
 
 ## [See the project](https://martinslucass.github.io/TodoList/)
