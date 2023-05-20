@@ -7,7 +7,7 @@ import TodoProvider from "./contexts/TodoContext";
 function App() {
   return (
     <TodoProvider>
-      <div className="App">
+      <div className="app">
         <AddTodo />
         <ProgressTodo/>
         <TodoList />
